@@ -1,0 +1,82 @@
+table, th, td {
+  border-collapse: collapse;
+}
+
+table {
+  float: left;
+}
+
+.form {
+  padding: 8px;
+  background-color: rgb(226, 233, 236);
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+h3 {
+  margin-block-start: 0px;
+}
+
+label {
+  padding-top: 10px;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+
+.isPremium {
+  display: inline;
+}
+
+.gender {
+  display: inline;
+  vertical-align: middle;
+}
+
+.checkbox {
+  vertical-align: middle;
+}
+
+.addButton {
+  margin-left: 130px;
+}
+
+table {
+  display: inline-block;
+}
+
+.showButton {
+  margin-left: 25px;
+  margin-top: 2px;
+}
+
+caption {
+  color: rgb(39, 38, 38);
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+th, td {
+  width: 100px;
+  height: 25px;
+}
+
+th {
+  background-color: rgb(163, 166, 167);
+}
+
+td {
+  background-color: rgb(226, 233, 236);
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+button {
+  display: block;
+}
